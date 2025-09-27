@@ -132,15 +132,7 @@ const Services = () => {
           </div>
         </motion.div>
 
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-          <motion.div
-            animate={{ y: [0, 10, 0] }}
-            transition={{ duration: 2, repeat: Infinity }}
-            className="text-white text-2xl"
-          >
-            ↓
-          </motion.div>
-        </div>
+     
       </div>
 
       {/* Stats Section */}

@@ -705,10 +705,7 @@ const Home = () => {
             transition={{ duration: 0.8 }}
             className="text-white"
           >
-            <div className="inline-flex items-center bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 mb-8 border border-white/30">
-              <Award className="h-5 w-5 mr-2 text-yellow-400" />
-              <span className="font-semibold">British Council Certified Partner</span>
-            </div>
+           
             
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
               <span className="block bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
@@ -1089,21 +1086,21 @@ const Home = () => {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-                  <motion.button
+                  <Link to={"/contact"}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     className="bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold transition-colors duration-300 flex items-center justify-center text-sm sm:text-base"
                   >
                     <Calendar className="h-4 w-4 sm:h-5 sm:w-5 mr-2" />
                     Book Free Demo Class
-                  </motion.button>
+                  </Link>
                   
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold transition-colors duration-300 flex items-center justify-center text-sm sm:text-base"
+                    className="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold transition-colors duration-300 flex items-center justify-center text-sm sm:text-base" 
                   >
-                    <Phone className="h-4 w-4 sm:h-5 sm:w-5 mr-2" />
+                    <Phone className="h-4 w-4 sm:h-5 sm:w-5 mr-2"  />
                     Talk to Counselor
                   </motion.button>
                 </div>
@@ -1141,11 +1138,11 @@ const Home = () => {
               
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+916302447010"
                   className="flex items-center px-6 sm:px-8 py-3 sm:py-4 bg-white/20 hover:bg-white/30 text-white font-bold rounded-2xl backdrop-blur-sm border border-white/30 text-base sm:text-lg transition-all duration-300"
                 >
                   <Phone className="h-4 w-4 sm:h-5 sm:w-5 mr-2 sm:mr-3" />
-                  Call: +91 98765 43210
+                  Call: +91 6302447010
                 </a>
               </motion.div>
             </div>
