@@ -413,7 +413,7 @@ const Contact = () => {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="tel:+15551234569"
+            href="tel:+91 6302447010"
             className="inline-flex items-center px-8 py-4 bg-white text-blue-600 rounded-2xl font-bold text-lg shadow-2xl"
           >
             <span className="text-2xl mr-3">📞</span>

@@ -163,14 +163,14 @@ const About = () => {
                 Transforming IELTS aspirations into exceptional results since 2010
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <motion.a
+                <Link  to={"/contact"}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  href="/contact"
+                  
                   className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl shadow-2xl hover:shadow-3xl transition-all duration-300"
                 >
                   Start Your Journey
-                </motion.a>
+                </Link>
                 < Link to ={'/courses'}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -476,22 +476,22 @@ const About = () => {
             Join thousands of successful students who transformed their IELTS goals into reality with our expert guidance.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <motion.a
+            <Link to={"/contact"}
               whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(0,0,0,0.3)" }}
               whileTap={{ scale: 0.95 }}
-              href="/contact"
+              
               className="px-12 py-4 bg-white text-blue-600 font-bold rounded-xl text-lg shadow-2xl hover:shadow-3xl transition-all duration-300"
             >
               Book Free Assessment
-            </motion.a>
-            <motion.a
+            </Link>
+            <Link to={"/contact"}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="/contact"
+              
               className="px-12 py-4 border-2 border-white text-white font-bold rounded-xl text-lg hover:bg-white hover:bg-opacity-10 transition-all duration-300"
             >
               📞 (123) 456-7890
-            </motion.a>
+            </Link>
           </div>
           <p className="mt-6 text-blue-200">Limited spots available for March 2024 intake</p>
         </div>
