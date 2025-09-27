@@ -87,13 +87,12 @@ const Services = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 to-blue-900/60"></div>
         </div>
-        
-        <motion.div 
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="relative text-center text-white max-w-6xl mx-auto px-4"
-        >
+      <motion.div 
+  initial={{ opacity: 0, y: 50 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+  className="relative text-center text-white px-4 py-2 mt-24 lg:-mt-12 sm:mt-0"
+>
           <motion.span 
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
