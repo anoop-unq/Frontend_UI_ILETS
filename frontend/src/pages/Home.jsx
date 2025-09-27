@@ -946,12 +946,12 @@ const Home = () => {
                 achievement: "Australia Student Visa"
               },
               {
-                name: "Arjun Kumar",
+                name: "Anoop Anvesh",
                 score: "Band 9.0",
                 previousScore: "7.0",
                 improvement: "2.0 Points Improvement", 
                 comment: "Listening module strategies were game-changing. The real exam simulations prepared me perfectly for the actual test environment.",
-                avatar: assets.Anvesh,
+                avatar: `${assets.Anvesh}`,
                 course: "IELTS General",
                 duration: "7 Weeks",
                 achievement: "UK Work Visa"
